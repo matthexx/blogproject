@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  
+  /* h2, h3{
+    margin: 0;
+  } */
+
+  body{
+    background-color: #c7ba27;
+    margin: 20px 0;
+
+   
+    font-family: sans-serif;
+  }
+
+  .wrapper{
+    width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+  }
+
+  header{
+    padding: 50px;
+    overflow: hidden;
+  }
+
+  header > #logo{
+    float: left;
+  }
+
+  .logoimg{
+      width:100px;
+      margin-top:-30px;
+  }
+
+  nav{
+    float: right;
+  }
+
+  nav a{
+    color: #fff;
+    border:1px solid gray;
+    background-color: #000;
+    text-decoration: none;
+    padding: 4px;
+  }
+
+  nav a:hover{
+    color: #000;
+    background-color: #fff;
+    border:none;
+  }
+
+  main{
+    padding: 50px;
+    overflow: hidden;
+  }
+
+  section{
+    width: 70%;
+    float: left;
+  }
+
+  article{
+    padding: 30px;
+    border-bottom: 1px solid #cccccc;
+  }
+  article:last-child{
+    border-bottom: 0px;
+  }
+
+  aside{
+    width: 30%;
+    float:right;
+    background-color: #fdd761;
+    padding: 10px;
+  }
+
+  aside h3{
+    background-color: #ff5353;
+    color: #ffffff;
+    padding: 10px;
+  }
+
+  aside a{
+    color: #fff;
+    border:1px solid gray;
+    border-radius:6px;
+    background-color: #000;
+    text-decoration: none;
+    padding: 2px;
+  }
+
+  aside a:hover{
+    color: #000;
+    background-color: #fff;
+    border:none;
+  }
+
+  aside li{
+      list-style: none;
+      margin-top:8px;
+      margin-left:-40px;
+
+      
+  }
+
+  .back2top{
+    border:1px solid grey;
+    background-color: #ff5353;
+    float:right;
+    width:40px;
+    height:40px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 2px #999;
+    bottom:25px;
+    right:318px;
+    position: fixed;
+ 
+  }
+
+  .back2top p a{
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left:14px;
+    text-align: center;
+
+  }
+
+  footer{
+    padding: 20px;
+    border-top: 1px solid #ccc;
+    text-align: center;
+  }
